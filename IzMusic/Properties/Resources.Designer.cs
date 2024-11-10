@@ -73,9 +73,29 @@ namespace IzMusic.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4801315_glass_magnifier_magnifying_search_searching_icon__2_ {
+            get {
+                object obj = ResourceManager.GetObject("4801315_glass_magnifier_magnifying_search_searching_icon (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5402408_lis {
             get {
                 object obj = ResourceManager.GetObject("5402408_lis", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5402408_lisе {
+            get {
+                object obj = ResourceManager.GetObject("5402408_lisе", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +116,16 @@ namespace IzMusic.Properties {
         internal static System.Drawing.Bitmap _9025756_house_icon__1_ {
             get {
                 object obj = ResourceManager.GetObject("9025756_house_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9025756_house_icon__2_ {
+            get {
+                object obj = ResourceManager.GetObject("9025756_house_icon (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

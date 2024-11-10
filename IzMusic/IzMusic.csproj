@@ -92,5 +92,14 @@
   <ItemGroup>
     <None Include="Resources\5402408_lis.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4801315_glass_magnifier_magnifying_search_searching_icon %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9025756_house_icon %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5402408_lisе.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

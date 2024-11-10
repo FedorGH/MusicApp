@@ -8,3 +8,13 @@ C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.csproj.CoreCompileI
 C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.exe
 C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.pdb
 C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.IzMusic.resources
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\bin\Debug\IzMusic.exe.config
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\bin\Debug\IzMusic.exe
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\bin\Debug\IzMusic.pdb
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\obj\Debug\IzMusic.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\obj\Debug\IzMusic.IzMusic.resources
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\obj\Debug\IzMusic.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\obj\Debug\IzMusic.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\obj\Debug\IzMusic.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\obj\Debug\IzMusic.exe
+C:\Users\user\Documents\GitHub\MusicApp\IzMusic\obj\Debug\IzMusic.pdb
