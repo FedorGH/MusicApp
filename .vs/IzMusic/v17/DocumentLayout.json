@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\MusicApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|c:\\users\\user\\documents\\github\\musicapp\\izmusic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|c:\\users\\fedor\\documents\\github\\musicapp\\izmusic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|solutionrelative:izmusic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|c:\\users\\user\\documents\\github\\musicapp\\izmusic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\izmusic\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|solutionrelative:izmusic\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\izmusic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|solutionrelative:izmusic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|c:\\users\\user\\documents\\github\\musicapp\\izmusic\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|solutionrelative:izmusic\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|c:\\users\\fedor\\documents\\github\\musicapp\\izmusic\\roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22EC508-2009-4141-9930-7894AC40B1D4}|IzMusic\\IzMusic.csproj|solutionrelative:izmusic\\roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs",
-              "RelativeDocumentMoniker": "IzMusic\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "IzMusic\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T09:26:15.204Z",
-              "IsPinned": true,
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs",
-              "RelativeDocumentMoniker": "IzMusic\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs",
-              "RelativeToolTip": "IzMusic\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAawA4AAAAFAAAAAAAAAA==",
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "IzMusic\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.Designer.cs",
+              "RelativeToolTip": "IzMusic\\Form1.Designer.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAvwJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T11:29:14.678Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-10T11:28:14.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "IzMusic\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.Designer.cs",
-              "RelativeToolTip": "IzMusic\\Form1.Designer.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAawMIAAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RoundButton.cs",
+              "DocumentMoniker": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\RoundButton.cs",
+              "RelativeDocumentMoniker": "IzMusic\\RoundButton.cs",
+              "ToolTip": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\RoundButton.cs",
+              "RelativeToolTip": "IzMusic\\RoundButton.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwJoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T11:28:14.153Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-10T12:23:12.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs",
+              "RelativeDocumentMoniker": "IzMusic\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs [Design]",
+              "RelativeToolTip": "IzMusic\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:26:15.204Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs",
+              "RelativeDocumentMoniker": "IzMusic\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fedor\\Documents\\GitHub\\MusicApp\\IzMusic\\Form1.cs",
+              "RelativeToolTip": "IzMusic\\Form1.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAIAwwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:29:14.678Z",
               "EditorCaption": ""
             }
           ]

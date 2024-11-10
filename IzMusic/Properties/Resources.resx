@@ -121,14 +121,14 @@
   <data name="4801315_glass_magnifier_magnifying_search_searching_icon (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4801315_glass_magnifier_magnifying_search_searching_icon (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="9025756_house_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9025756_house_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="5402408_lis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5402408_lis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="8324223_ui_essential_app_avatar_profile_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8324223_ui_essential_app_avatar_profile_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="9025756_house_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9025756_house_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4801315_glass_magnifier_magnifying_search_searching_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4801315_glass_magnifier_magnifying_search_searching_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -138,5 +138,8 @@
   </data>
   <data name="5402408_lisе" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5402408_lisе.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8324223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8324223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
