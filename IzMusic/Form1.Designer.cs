@@ -29,22 +29,42 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IzMusic));
             IzMusics.RoundButton roundButton1;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IzMusic));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.roundButton2 = new IzMusics.RoundButton();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.roundButton2 = new IzMusics.RoundButton();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             roundButton1 = new IzMusics.RoundButton();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // roundButton1
+            // 
+            resources.ApplyResources(roundButton1, "roundButton1");
+            roundButton1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            roundButton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            roundButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            roundButton1.BorderRadius = 20;
+            roundButton1.BorderSize = 0;
+            roundButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            roundButton1.FlatAppearance.BorderSize = 0;
+            roundButton1.ForeColor = System.Drawing.Color.White;
+            roundButton1.Name = "roundButton1";
+            roundButton1.TextColor = System.Drawing.Color.White;
+            roundButton1.UseVisualStyleBackColor = false;
+            roundButton1.Paint += new System.Windows.Forms.PaintEventHandler(this.roundButton1_Paint);
             // 
             // panel1
             // 
@@ -57,6 +77,22 @@
             this.panel1.Controls.Add(this.button2);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // roundButton2
+            // 
+            resources.ApplyResources(this.roundButton2, "roundButton2");
+            this.roundButton2.BackColor = System.Drawing.Color.Crimson;
+            this.roundButton2.BackgroundColor = System.Drawing.Color.Crimson;
+            this.roundButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.roundButton2.BorderRadius = 20;
+            this.roundButton2.BorderSize = 0;
+            this.roundButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundButton2.FlatAppearance.BorderSize = 0;
+            this.roundButton2.ForeColor = System.Drawing.Color.White;
+            this.roundButton2.Image = global::IzMusic.Properties.Resources._8324223;
+            this.roundButton2.Name = "roundButton2";
+            this.roundButton2.TextColor = System.Drawing.Color.White;
+            this.roundButton2.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -119,41 +155,20 @@
             // 
             // panel4
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.BackColor = System.Drawing.Color.Black;
             resources.ApplyResources(this.panel4, "panel4");
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Name = "panel4";
             // 
-            // roundButton2
+            // pictureBox2
             // 
-            resources.ApplyResources(this.roundButton2, "roundButton2");
-            this.roundButton2.BackColor = System.Drawing.Color.Crimson;
-            this.roundButton2.BackgroundColor = System.Drawing.Color.Crimson;
-            this.roundButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.roundButton2.BorderRadius = 20;
-            this.roundButton2.BorderSize = 0;
-            this.roundButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundButton2.FlatAppearance.BorderSize = 0;
-            this.roundButton2.ForeColor = System.Drawing.Color.White;
-            this.roundButton2.Image = global::IzMusic.Properties.Resources._8324223;
-            this.roundButton2.Name = "roundButton2";
-            this.roundButton2.TextColor = System.Drawing.Color.White;
-            this.roundButton2.UseVisualStyleBackColor = false;
-            // 
-            // roundButton1
-            // 
-            resources.ApplyResources(roundButton1, "roundButton1");
-            roundButton1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            roundButton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            roundButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            roundButton1.BorderRadius = 20;
-            roundButton1.BorderSize = 0;
-            roundButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            roundButton1.FlatAppearance.BorderSize = 0;
-            roundButton1.ForeColor = System.Drawing.Color.White;
-            roundButton1.Name = "roundButton1";
-            roundButton1.TextColor = System.Drawing.Color.White;
-            roundButton1.UseVisualStyleBackColor = false;
-            roundButton1.Paint += new System.Windows.Forms.PaintEventHandler(this.roundButton1_Paint);
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::IzMusic.Properties.Resources.play__1_;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // IzMusic
             // 
@@ -162,12 +177,14 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Controls.Add(this.panel3);
-            this.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "IzMusic";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
 
@@ -184,6 +201,8 @@
         private System.Windows.Forms.Panel panel4;
         private IzMusics.RoundButton roundButton2;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
