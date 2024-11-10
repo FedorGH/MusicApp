@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\IzMusic\IzMusic\bin\Debug\IzMusic.exe.config
+C:\Users\user\source\repos\IzMusic\IzMusic\bin\Debug\IzMusic.exe
+C:\Users\user\source\repos\IzMusic\IzMusic\bin\Debug\IzMusic.pdb
+C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.Properties.Resources.resources
+C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.csproj.GenerateResource.cache
+C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.exe
+C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.pdb
+C:\Users\user\source\repos\IzMusic\IzMusic\obj\Debug\IzMusic.IzMusic.resources
